@@ -28,8 +28,8 @@ function Card({ $id, featureImage, tittle, content }) {
           />
         </div>
         <div className="w-2/3 flex flex-col justify-center p-2">
-        <h1 className="text-xl font-bold text-white mb-2">{tittle}</h1>
-          <h2 className="text-lg text-white font-semibold mb-2">{content}</h2>
+        <h1 className="text-lg md:text-xl font-bold text-white mb-2">{tittle}</h1>
+          <h2 className="md:text-lg text-sm text-white font-semibold mb-2">{content}</h2>
           {user && (
             <h3 className="text-sm text-gray-400">{user.name}</h3>
           )}
